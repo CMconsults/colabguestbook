@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    background-image: url(uni-copy.png);
+}
+
+.guest1{
+  
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-container{
+    background-color: rgba(0, 0, 0, .51);
+    
+    border-radius: 49.375px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+.field{
+    margin-top: 0px;
+    
+    
+}
+
+
+img{
+    background-color: #FFFFFF;
+}
+
+.guest{
+  
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 52px;
+    margin-top: -30px;
+    color: #FFFFFF;
+    
+}
+.book{
+  
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 55px;
+    margin-top: -50px;
+    color: #FFFFFF;
+}
+hr{
+    margin-top: -80px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+.school{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+label{
+   font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+input{
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+}
+
+.btn1{
+   
+    font-size: 16px;
+    margin-left: 40px;
+    color: #FFFFFF;
+    background:none;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-align: center;
+}
+
+i{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+
+    
+    

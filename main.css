@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    background-image: url("uni copy.png");
+    background-attachment: fixed;
+}
+
+.joy{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, .51);
+    border-radius: 49.375px;
+    position: absolute;
+    width: 555px;
+    height: 850px;
+    left: 443px;
+    top: 55px; 
+}
+label{
+    /* position: absolute; */
+    width: 73px;
+    height: 36px;
+    left: 537px;
+    top: 319px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 15%;
+}
+img{
+    
+    width: 169px;
+    height: 61px;
+    left: 639px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+}
+.input{
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    width: 80%;
+    height: 40px;
+    position: center;
+   
+}
+.guest{
+    width: 161px;
+    height: 78px;
+    left: 640px;
+    margin-top: -30px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 52px;
+    
+    color: #FFFFFF;
+    
+}
+.book{
+    width: 154px;
+    height: 83px;
+    left: 644px;
+    margin-top: -90px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 55px;
+    color: #FFFFFF;
+}
+.school{
+    width: 179px;
+    height: 36px;
+    left: 640px;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+hr{
+    margin-top: -80px;
+    margin-bottom: 50px;
+}
+.icon {
+    padding: 10px;
+    background: #FFFFFF;
+    color: #000000;
+    min-width: 50px;
+    text-align: center;
+    height: 22px;
+    margin-left:-10px;
+    border-radius: 22px;
+  }
+.btn {
+    /* background: none; */
+    /* background-color: #FFFFFF; */
+    /* color: rgb(88, 8, 236); */
+    /* padding: 15px 20px; */
+    /* border: 5px; */
+    background-color: rgba(0, 0, 0, .51);
+    /* width: 100px;*/
+    border-radius: 15px;
+    /* border-color: #FFFFFF; */
+    outline: 15px;
+    outline-color: #FFFFFF;
+    /* background-color: #4CAF50; Green */
+    
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+    
+    
+  }
+ input#fname{
+background-image:url(download.png);
+background-repeat:no-repeat;
+background-position:6px;
+border:1px solid #DADADA;
+margin-top:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+-webkit-box-shadow:0 0 10px;
+/* For I.E */
+-moz-box-shadow:0 0 10px;
+/* For Mozilla Web Browser*/
+border-radius:5px;
+-webkit-border-radius:5px;
+/* For I.E */
+-moz-border-radius:5px
+/* For Mozilla Web Browser*/
+}

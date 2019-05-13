@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GUESTBOOK</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid bg">
+        <div class="row guest1">
+    <div class="col-sm-4 col-md-4 col-xs-12"></div>
+    <div class="col-sm-4 col-md-4 col-xs-12">
+        
+    <form class="form-container" id="form" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="off">
+            <div><img src="Colab.png" class="img-responsive mx-auto d-block" alt=""></div>
+            <div class="text-center">
+                    <p class="school">CODESCHOOL</p>
+                </div>
+            <div>
+                    <p class="guest text-center">GUEST</p>
+                    <p class="book text-center">BOOK</p>
+                    <hr width="60px">
+               </div>
+
+        <div class="form-group field" >
+          <label for="name">Name</label>
+          <span class="input-group-addon"><i class="fa fa-user icon"></i></span>
+          <input type="text" class="form-control"  placeholder="Enter your name" name="entry.1309722251" required>
+        </div>
+         <div class="form-group field">
+          <label for="contact">Contact</label>
+          <span class="input-group-addon"><i class="fa fa-phone icon"></i></span>
+          <input type="text" class="form-control" placeholder="Enter your contact" name="entry.1542587002" required>
+        </div>
+
+        <div class="form-group field">
+            <label for="address">Address</label>
+            <span class="input-group-addon"><i class="fa fa-home icon"></i></span>
+            <input type="text" class="form-control" placeholder="Enter your address" name="entry.680745220" required>
+        </div>
+
+        <div class="form-group field">
+            <label for="email">Email</label>
+            <span class="input-group-addon"><i class="fa fa-envelope icon"></i></span>
+            <input type="text" class="form-control" placeholder="Enter your email" name="entry.1627177808" required>
+          </div>
+          <!-- <div class="container" role="main"> -->
+       <div class="">
+        <center><button type="submit" class="btn1 ">Submit</button> </center>
+        
+    </div>
+    </div>
+
+    
+      </form>
+
+    </div>
+    </div>
+    </div>
+<h3 id="success-msg" style="text-align: center !important; margin-top:190px !important; display:none; color:#fff"> Your Request has been posted to Google Spreadsheet</h3>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script>
+function postToGoogle() {
+	 $.ajax({
+                    url: "https://docs.google.com/forms/d/e/1FAIpQLScW3VbfWm4QkfUplbumIwJcmAwnDORIZUC_V1EEqOAKJQQoSw/formResponse?",
+					data: {"entry.2008660880": field1, "entry.1460631936": field2, "entry.904964149": field3, "entry.1878256062": field4},
+                    type: "POST",
+                    dataType: "xml",
+                    success: function(d)
+					{
+					},
+					error: function(x, y, z)
+						{
+
+							$('#success-msg').show();
+							$('#form').hide();
+							
+						}
+                });
+				return false;
+            }
+</body>
+</html>
